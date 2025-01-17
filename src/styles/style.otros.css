@@ -1,0 +1,128 @@
+.custom-navBar {
+    background: #F5C618;
+}
+
+.imagen-logo {
+    width: 65px;
+    height: 55px;
+    background-image: url("../assets/images/Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.error-404 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.error-404 h1 {
+    font-size: 142px;
+    font-family: kanit, sans-serif;
+    font-size: 200px;
+    font-weight: 200;
+    margin: 0;
+    background: linear-gradient(80deg, #FD7E14, #011F5D);
+    color: transparent;
+    background-clip: text;
+}
+
+.text h6 {
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.text p {
+    font-size: 13px;
+    margin-top: 0;
+    line-height: 1;
+}
+
+.btn-menu {
+    background: none;
+    font-size: 24px;
+}
+
+.btn-salir {
+    background-color: #F55449 !important;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    font-size: 24px;
+}
+
+.btn-menu,
+.btn-salir,
+.btn-salir:hover,
+.btn-salir:focus,
+.btn-salir:active,
+.btn-menu:hover,
+.btn-menu:focus,
+.btn-menu:active {
+    box-shadow: none;
+    background-color: inherit;
+    color: inherit;
+    transform: none;
+    outline: none;
+}
+
+.icon-salir {
+    color: #FFFFFF;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.btn-opc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    background-color: #fdf7c4;
+    color: #333;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-opc-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-opc:hover {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn-opc.activo {
+    background-color: #ffa000;
+    color: #fff;
+}
+
+.btn-opc svg {
+    font-size: 20px;
+    color: inherit;
+}
